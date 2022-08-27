@@ -1,0 +1,28 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[dev-packages]
+
+ipython = "*"
+
+
+[packages]
+
+django = "==1.10.5"
+django-cors-middleware = "==1.3.1"
+django-extensions = "==1.7.1"
+djangorestframework = "==3.9.1"
+pyjwt = "==1.4.2"
+gunicorn = "*"
+gevent = "*"
+"psycopg2" = "*"
+"boto3" = "*"
+
+
+[requires]
+
+python_version = "3"
