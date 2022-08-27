@@ -1,6 +1,0 @@
-.env
-
-/docker/api/data
-/docker/db/data
-/docker/nginx/data
-/docker/web/data
